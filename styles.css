@@ -9,3 +9,130 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+nav,
+.header {
+    display: flex;
+    background: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-around;
+    align-items: center;    
+}
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    gap: 25px;
+}
+#logo {
+    font-size: 24px;
+}
+
+.hero-section {
+    display: flex;
+    flex: 1 1 0; 
+    justify-content: space-around;
+    align-content: center;
+    background: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.hero-text{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-content: flex-start;
+
+}
+#hero-text{
+    color: #f9faf8;
+    font-size: 50px;
+    font-weight: 900;
+    width: 450px;
+}
+.hero-button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border:#3882f6;
+    font-size: 18px;
+    color:#e5e7eb;
+    width: 70px;
+}
+
+.randominfocontainer{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+}
+.sechead {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.secimages{
+    display: flex;
+}
+
+#secimages2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thor{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: end;
+    padding: 70px;
+
+}
+.text{ 
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.calltoactioncontainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:#f9faf8;
+    font-size: 24px;
+    padding: 50px;
+}
+.bluebox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 20px;  
+
+
+}
+
+#blue-button{
+    background: #3882f6;
+    border-radius: 5px;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    background: #1f2937;
+    justify-content: center;
+    align-content: center;
+    color:#f9faf8;
+    font-size: 18px;
+    text-align: center;
+}
