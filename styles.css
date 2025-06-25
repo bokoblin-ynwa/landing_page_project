@@ -36,7 +36,11 @@ ul{
     background: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
-    
+    padding: 300px;
+    gap: 200px;
+    margin-top:-200px;
+    height:300px;
+
 }
 .hero-text{
     display: flex;
@@ -57,42 +61,54 @@ ul{
     border:#3882f6;
     font-size: 18px;
     color:#e5e7eb;
-    width: 70px;
+    width: 100px;
 }
 
 .randominfocontainer{
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
-    color: #e5e7eb;
+    color: #1f2937;
     font-size: 18px;
     justify-content: center;
     align-content: center;
+    height: 600px;
+    margin-top: -250px;
+    width: 1500px;
+    padding: 300px;
 }
 .sechead {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    
 }
 .secimages{
     display: flex;
+    gap: 10px;
 }
 
 #secimages2{
+    border-radius: 7px;
+    border: 5px solid #3882f6;
+}
+.info{
     display: flex;
     flex-direction: column;
 }
-
 
 .thor{
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     justify-content: center;
     align-content: center;
     text-align: end;
-    padding: 70px;
+    padding: 375px;
+    height: 600px;
+    width: 2000px;
 
 }
 .text{ 
@@ -105,17 +121,23 @@ ul{
     display: flex;
     justify-content: center;
     align-content: center;
+    text-align: center;
     color:#f9faf8;
     font-size: 24px;
-    padding: 50px;
+    padding: 150px;
+    margin-left: 150px;
 }
+
 .bluebox{
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    text-align: center;
+    align-content: start;
     background: #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;  
+    height: max-content;
+    width: 1300px;
 
 
 }
@@ -123,8 +145,13 @@ ul{
 #blue-button{
     background: #3882f6;
     border-radius: 5px;
+    border: 5px solid #f9faf8; 
     color:#f9faf8;
     font-size: 24px;
+    width: 125px;
+    height: 50px;
+    font-size: 18px;
+    align-self: center;
 }
 
 footer{
@@ -135,4 +162,5 @@ footer{
     color:#f9faf8;
     font-size: 18px;
     text-align: center;
+    width: 2000px;
 }
