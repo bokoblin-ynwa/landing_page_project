@@ -1,12 +1,13 @@
-.roboto-family-font {
+.roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 200;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
-
+body {
+    font-family: 'Roboto' , sans-serif;
+}
 .header {
     background: #1f2937;
     display: flex;
@@ -59,12 +60,16 @@ li{
     border:#3882f6;
     color:#e5e7eb;
     font-size: 12px;
+    width: 60px;
+    height: 30px;
 }
 .sectionTwo {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     color: #1f2937;
+    justify-content: center;
+    align-items: center;
 }
 #headText {
     font-size: 36px;
@@ -88,6 +93,8 @@ li{
     font-style: italic;
     font-weight: 50;
     padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 #thor {
